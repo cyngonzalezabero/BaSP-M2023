@@ -10,6 +10,7 @@
     <header>
         <p>Mega Rocket SA</p>
     </header>
+    <!--Side bar-->
     <aside>
             <div class="container">
             <input type="text" placeholder="Search">
@@ -62,6 +63,7 @@
     </nav>
     </aside>
     <main>
+    <!--Frame 1-->
         <section>
             <h1>Hi, and welcome to Mega Rocket SA Gym</h1>
             <img src="assets/img/Picture1.png" alt="Gym picture">
@@ -75,6 +77,7 @@
           </section>
           <img src="assets/img/Logo.png" alt="logo radium rocket">
           <section>
+    <!--Frame 2-->
             <div>
               <img src="assets/img/Appointment.png" alt="appointment booking image">
               <p>Appointment booking</p>
@@ -92,6 +95,40 @@
               <p>Contact form and suggestions</p>
             </div>
           </section>
+    <!--Frame 3-->
+    <h3>Registration and/or claim</h3>
+    <form>
+        <div>
+            <label for="name">Name</label>
+            <input type="text" name="name">
+          </div>
+          <div>
+            <label for="lastname">Lastname</label>
+            <input type="text" name="lastname">
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input type="email" name="email">
+          </div>
+          <div>
+            <input type="radio" name="option">
+            <label for="membership">I want to know memberships and costs</label>
+          </div>
+          <div>
+            <input type="radio" name="option">
+            <label for="question">I want to make a question or suggestion</label>
+          </div>
+          <div>
+            <input type="radio" name="option">
+            <label for="claim">I want to make a claim</label>
+          </div>
+          <div>
+            <p>Comments</p>
+            <textarea name="comments"></textarea>
+          </div>
+          <button type="submit">Send</button>
+          <button type="reset">Cancel</button>
+    </form>
     </main>
 </body>
 </html>
