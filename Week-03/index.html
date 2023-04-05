@@ -7,6 +7,7 @@
     <title>Mega Rocket SA</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
@@ -14,11 +15,12 @@
     </header>
   <!--Side bar-->
     <aside>
-      <div class="container">
-        <img id="search" src="../assets/img/search.png">
-        <input type="text" placeholder="Search">
-          <div class="btn"></div>
-      </div>
+      <ul>
+        <li>
+          <input id="search-box" type="text" placeholder="Search">
+          <img id="search" src="../assets/img/search.png">
+        </li>
+      </ul>
     <nav>
       <ul>
         <li>
@@ -46,22 +48,19 @@
           </a>
         </li>
       </ul>
-    <p>Information</p>
+    <h3 id="info-title">Information</h3>
       <ul>
-        <li class="information-text">
-          <img class="sidebar-images" src="../assets/img/envelope.png" alt="envelope icon">
-          <a href="#">information@untitled.tld</a>
+        <li>
+            <img class="sidebar-images" src="../assets/img/envelope.png" alt="envelope icon">
+            <a href="#" class="information">information@untitled.tld</a>
         </li>
-        <li class="information-text">
-          <img class="sidebar-images" src="../assets/img/cellphone.png" alt="cellphone icon">
-          <span>(000) 000-0000</span>
+        <li>
+            <img class="sidebar-images" src="../assets/img/cellphone.png" alt="cellphone icon">
+            <p class="information">(000) 000-0000</p>
         </li>
-        <li class="information-text direction-li">
-          <img class="sidebar-images" src="../assets/img/home.png" alt="home icon">
-          <div>
-          <span>1234 Somewhere Road</span>
-          <span>#8254Nashville, TN</span>
-          <span>00000-0000</span>
+        <li>
+            <img class="sidebar-images" src="../assets/img/home.png" alt="home icon">
+            <p class="information">1234 Somewhere Road, #8254Nashville, TN 00000-0000</p>
         </li>
       </ul>
     </nav>
@@ -111,30 +110,31 @@
         <form>
           <div>
             <label for="name" class="form-label">Name</label>
-            <input type="text" id="name">
+            <input type="text" id="name" class="box">
           </div>
           <div>
             <label for="lastname" class="form-label">Lastname</label>
-            <input type="text" id="lastname">
+            <input type="text" id="lastname" class="box">
           </div>
           <div>
             <label for="email" class="form-label">Email</label>
-            <input type="email" id="email">
+            <input type="email" id="email" class="box">
           </div> 
           <div>
-            <input type="radio" name="option" id="option1">
+            <input type="radio" name="option" id="option1" class="circle">
             <label for="membership">I want to know memberships and costs</label>
           </div>
           <div>
-            <input type="radio" name="option" id="option2">
+            <input type="radio" name="option" id="option2" class="circle">
             <label for="question">I want to make a question or suggestion</label>
           </div>
-            <input type="radio" name="option" id="option3">
+            <input type="radio" name="option" id="option3" class="circle">
             <label for="claim">I want to make a claim</label>
             <p>Comments</p>
-            <textarea name="comments"></textarea>
-          <button type="submit">Send</button>
-          <button type="reset">Cancel</button>
+            <textarea name="comments" id="textarea"></textarea>
+          <div>
+            <button type="submit">Send</button>
+          </div>
         </form>
       </section>
       <div class="separator-line"></div>
@@ -154,34 +154,44 @@
   <!--Frame 5-->
     <section id="frame-5">
     <h4>Activities</h4>
-        <img src="../assets/img/crossfit.png" alt="crossfit training">
-        <p>Crossfit</p>
-        <img src="../assets/img/functional.png" alt="functional training">
-        <p>Functional</p>
-        <img src="../assets/img/boxing.png" alt="boxing training">
-        <p>Boxing</p>
-        <img src="../assets/img/spinning.png" alt="spinning training">
-        <p>Spinning</p>
-        <img src="../assets/img/muscles.png" alt="man training muscles">
-        <p>Fitness</p>
+    <div class="activity-section">
+      <img src="../assets/img/crossfit.png" alt="crossfit training">
+      <p>Crossfit</p>
+    </div>
+    <div class="activity-section">
+      <img src="../assets/img/functional.png" alt="functional training">
+      <p>Functional</p>
+    </div>
+    <div class="activity-section">
+      <img src="../assets/img/boxing.png" alt="boxing training">
+      <p>Boxing</p>
+    </div>
+    <div class="activity-section">
+      <img src="../assets/img/spinning.png" alt="spinning training">
+      <p>Spinning</p>
+    </div>
+    <div class="activity-section">
+      <img src="../assets/img/muscles.png" alt="man training muscles">
+      <p>Fitness</p>
+    </div>   
     </section>
     <div class="separator-line"></div>
   <!--Frame 6-->
     <section id="frame-6">
-      <p>Membership Black</p>
+      <p id="membership-black">Membership Black</p>
         <ul>
           <li>Free access to Bodybuilding</li>
           <li>Free access to classes prior registration</li>
           <li>Follow-up analyzed by coach</li>
           <li>Grid display</li>
         </ul>
-      <p>Membership Classic</p>
+      <p id="membership-classic">Membership Classic</p>
         <ul>
           <li>Free access to the weight room</li>
           <li>Personalized monitoring by a coach</li>
           <li>Grid display</li>
         </ul>
-      <p>Membership Only Classes</p>
+      <p id="membership-onlyclasses">Membership Only Classes</p>
         <ul>
           <li>Free access to the weight room</li>
           <li>Personalized monitoring by a coach</li>
