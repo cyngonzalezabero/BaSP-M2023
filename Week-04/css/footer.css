@@ -18,3 +18,24 @@ footer div{
     width: 115px;
     height: 115px;
 }
+
+@media screen and (min-width:600px) {
+    .footer-container {
+        width: 80%;
+        align-items: center;
+    }
+
+    #logo {
+        position: fixed;
+        bottom: 50px;
+        right: 20px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    footer {
+        width: 60%;
+        margin-left: 30%;
+    }
+    
+}

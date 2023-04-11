@@ -22,8 +22,9 @@ aside li {
     list-style: none;
     margin-left: 20px;
     margin-top: 20px;
+    margin-bottom: 20px;
     height: 36px;
-    width: 255px;
+    width: 265px;
     left: 40px;
     top: 16px;
     border-radius: 4px;
@@ -36,7 +37,7 @@ aside li {
     margin-right: 40px;
 }
 
-aside nav ul {
+aside nav ul li {
     list-style-type: none;
     padding-left: 5px;
 }
@@ -76,7 +77,11 @@ nav img {
 }
 
 #info-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
     margin-top: 50px;
+    margin-bottom: 30px;
     text-align: center;
 }
 
@@ -91,5 +96,21 @@ nav img {
     font-size: 14px;
     line-height: 16px;
     vertical-align: left;
+    margin-top: 20px;
 }
 
+@media screen and (min-width: 1024px) {
+    aside {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 117.92px;
+        left: 0;
+        height: 93%;
+        width: 25%;
+    }
+
+    .hamburger-icon {
+        display: none;
+    }
+}
