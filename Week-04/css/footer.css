@@ -1,0 +1,20 @@
+footer{
+    margin-top: 30px;
+    text-align: center;
+}
+
+footer div{
+    text-align: center;
+}
+
+.footer-icon{
+    height: 50px;
+    width: 33.3%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#logo {
+    width: 115px;
+    height: 115px;
+}
