@@ -120,7 +120,6 @@ main {
 #frame-4 {
     margin-top: 30px;
     width: 80%;
-    background-color: rgba(170, 206, 155, 0.25);
 }
 
 #frame-4 h4 {
@@ -129,6 +128,7 @@ main {
     text-align: center;
     font-size: 35px;
     font-weight: 700;
+    background-color: rgba(170, 206, 155, 0.25);
 }
 
 #frame-4 p {
@@ -139,9 +139,10 @@ main {
     font-size: 20px;
     line-height: 30px;
     color: #2A2A32;
+    background-color: rgba(170, 206, 155, 0.25);
 }
 
-#frame-5 h4 {
+#activities-h4 {
     margin-top: 10px;
     margin-bottom: 20px;
     width: 109px;
@@ -213,8 +214,8 @@ main {
     .header-img-container {
         display: flex;
         flex-direction: column;
-        width: 852px;
-        height: 356px;
+        width: 474px;
+        height: 350px;
     }
 
     #frame-4 h4 {
@@ -235,16 +236,31 @@ main {
         margin-left: 25%;
     }
 
-    #frame-2 article {
-        display: inline-block;
-        width: 35%;
+    .header-img-container {
+        display: flex;
+        flex-direction: column;
+        width: 850px;
+        height: 318px;
+    }
+
+    #frame-2 {
+        display: flex;
+        flex-direction: row;
+        max-width: 90%;
+        flex-wrap: wrap;
         text-align: center;
-        padding-left: 100px;
+        padding-left: 90px;
+    }
+
+    #frame-5 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: flex-start;
     }
 
     #frame-5 .activity-section {
-        width: 260px;
-        height: 200px;
-        display: inline-block;
+        flex-direction: row;
+        width: 30%;
     }
 }

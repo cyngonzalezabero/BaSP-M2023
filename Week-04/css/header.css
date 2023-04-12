@@ -6,6 +6,7 @@ header {
     header {
         display: flex;
         position: fixed;
+        justify-content: center;
         top: 0;
         background-color: #373867;
         width: 100%;
@@ -13,11 +14,11 @@ header {
     }
 
     header p {
-        display: flex;
         margin-top: 0;
         padding-top: 30px;
         color: white;
         text-align: center;
+        align-self: center;
         font-size: 40px;
         font-weight: bold;
     }
