@@ -37,3 +37,16 @@ Flexbox and Media Queries as the main tool for the creation of a
 Responsive Design following the Mobile First concept.
 
 I used Github Pages to display the static files in the repository.
+
+## Week 05
+
+I did exercises to learn different JavaScript functionalities. 
+Each exercise block was saved in a new JS file inside a folder called “exercises”.
+
+The blocks of exercises were the following:
+   * 01-variables-and-operators.js
+   * 02-strings.js
+   * 03-arrays.js
+   * 04-if-else.js
+   * 05-for.js
+   * 06-functions.js
