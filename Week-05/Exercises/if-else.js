@@ -29,15 +29,15 @@ var age = Math.floor(Math.random()*100);
 
 if (age<2) {
     alert ('Bebe');
-} else if (age<13){
+} else if (age<13) {
     alert ('Niño');
-} else if (age<20){
+} else if (age<20) {
     alert ('Adolescente');
-} else if (age<31){
+} else if (age<31) {
     alert ('Joven');
-} else if (age<61){
+} else if (age<61) {
     alert ('Adulto');
-} else if (age<76){
+} else if (age<75) {
     alert ('Adulto mayor');
 } else {
     alert('Anciano');
