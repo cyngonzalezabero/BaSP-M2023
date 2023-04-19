@@ -1,4 +1,4 @@
-console.log('EXCERCISE 3: functions');
+console.log('EXCERCISE 6: functions');
 
 //a. Crear una función suma que reciba dos valores numéricos y 
 //retorne el resultado. Ejecutar la función y guardar el resultado 
