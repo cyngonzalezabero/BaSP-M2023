@@ -12,6 +12,17 @@ footer div{
     width: 33.3%;
     vertical-align: middle;
     text-align: center;
+    flex-wrap: wrap;
+}
+
+#footer-text{
+    width: 100%;
+    text-align: end;
+    flex-wrap: wrap;
+}
+
+#footer-text p{
+    width: 100%;
 }
 
 #logo {
@@ -20,9 +31,17 @@ footer div{
 }
 
 @media screen and (min-width:600px) {
-    .footer-container {
-        width: 80%;
-        align-items: center;
+
+    .footer-icon{
+        height: 50px;
+        width: 20%;
+        vertical-align: middle;
+    }
+
+    #footer-text{
+        width: 100%;
+        text-align: center;
+        flex-wrap: wrap;
     }
 
     #logo {
