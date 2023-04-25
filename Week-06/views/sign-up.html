@@ -4,74 +4,88 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" src="../css/reset.css">
-    <link rel="stylesheet" src="../css/common.css">
-    <link rel="stylesheet" src="../css/header.css">
-    <link rel="stylesheet" src="../css/sign-up.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/sign-up.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="../js/sign-up.js"></script>
     <title>Mega Rocket SA sign-up</title>
 </head>
 <body>
     <header>
         <p>Mega Rocket SA</p>
     </header>
-    <main>
-        <a id="back" href="./index.html"></a>
-        <img src="../../assets/img/back.png" alt="back image">
-        <h1>Register</h1>
-        <img src="../../assets/img/logo.png" alt="Mega Rocket logo">
-        <form>
-            <div>
-                <div>
-                    <label for="name">Name</label>
-                    <input id="name" type="text">
-                </div>
-                <div>
-                    <label for="lastname">Lastname</label>
-                    <input id="lastname" type="text">
-                </div>
-                <div>
-                    <label for="dni">DNI</label>
-                    <input id="dni" type="text">
-                </div>
-                <div>
-                    <label for="birthday">Birthday</label>
-                    <input id="birthday" type="text">
-                </div>
-                <div>
-                    <label for="phone-number">Phone number</label>
-                    <input id="phone-number" type="text">
-                </div>
-                <div>
-                    <label for="address">Address</label>
-                    <input id="address" type="text">
-                </div>
-                <div>
-                    <label for="city">City</label>
-                    <input id="city" type="text">
-                </div>
-                <div>
-                    <label for="zip-code">Zip code</label>
-                    <input id="zip-code" type="text">
-                </div>
-                <div>
-                    <label for="city">City</label>
-                    <input id="city" type="text">
-                </div>
-                <div>
-                    <label for="email">Email</label>
-                    <input id="email" type="email">
-                </div>
-                <div>
-                    <label for="password">Password</label>
-                    <input id="password" type="password">
-                </div>
-                <div>
-                    <label for="repeat-password">Repeat password</label>
-                    <input id="repeat-password" type="password">
-                </div>
+    <main class="flex column">
+        <a id="back" href="./index.html"
+          ><img src="../../assets/img/back.png" alt="back"
+        /></a>
+        <h1 class="form-title">Register</h1>
+        <img
+          id="RR-logo"
+          src="../../assets/img/logo.png"
+          alt="Logo Mega Rocket SA"
+        />
+        <form id="up-form" class="in-up-form flex column">
+          <div class="flex two-label-input-container">
+            <div class="flex column one-label-input-container">
+              <label for="name">Name</label>
+              <input id="name" type="text" />
             </div>
+            <div class="flex column one-label-input-container">
+              <label for="lastname">Lastname</label>
+              <input id="lastname" type="text" />
+            </div>
+          </div>
+          <div class="flex two-label-input-container">
+            <div class="flex column one-label-input-container">
+              <label for="id">ID</label>
+              <input id="id" type="text" />
+            </div>
+            <div class="flex column one-label-input-container">
+              <label for="birth-date">Birth date</label>
+              <input id="birth-date" type="date" />
+            </div>
+          </div>
+          <div class="flex two-label-input-container">
+            <div class="flex column one-label-input-container">
+              <label for="phone-number">Phone Number</label>
+              <input id="phone-number" type="text" />
+            </div>
+            <div class="flex column one-label-input-container">
+              <label for="address">address</label>
+              <input id="address" type="text" />
+            </div>
+          </div>
+          <div class="flex two-label-input-container">
+            <div class="flex column one-label-input-container">
+              <label for="zip-code">Zip code</label>
+              <input id="zip-code" type="text" />
+            </div>
+            <div class="flex column one-label-input-container">
+              <label for="locality">Locality</label>
+              <input id="locality" type="text" />
+            </div>
+          </div>
+          <div class="flex two-label-input-container">
+            <div class="flex column one-label-input-container">
+              <label for="email">Email</label>
+              <input id="email" type="email" />
+            </div>
+            <div class="flex column one-label-input-container">
+              <label for="password">Password</label>
+              <input id="password" type="password" />
+            </div>
+          </div>
+          <div class="flex two-label-input-container">
+            <div class="flex column one-label-input-container">
+              <label for="confirm-password">Confirm Password</label>
+              <input id="confirm-password" type="password" />
+            </div>
+          </div>
+          <input class="button bold" type="submit" value="continue" />
+          <a id="login-button" class="bold" href="./login.html">login</a>
         </form>
-        <a href="./login.html"><button id="continue-button">Continue</button></a>
-    </main>
+      </main>
 </body>
 </html>

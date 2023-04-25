@@ -50,3 +50,6 @@ The blocks of exercises were the following:
    * 04-if-else.js
    * 05-for.js
    * 06-functions.js
+
+## Week 06
+
