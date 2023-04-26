@@ -53,3 +53,9 @@ The blocks of exercises were the following:
 
 ## Week 06
 
+I created the html files for the login and sign-up screen validating the fields 
+with the data entered by the users.
+
+Login:
+   * Email
+   * Password

@@ -19,24 +19,24 @@
     <main class="flex column">
         <a id="back" href="./index.html"><img src="../../assets/img/back.png" alt="back"/></a>
         <h1 class="form-title">Log In</h1>
-        <img id="RR-logo" src="../../assets/img/logo.png" alt="Logo Mega Rocket SA"/>
-        <form id="in-form" class="in-up-form flex column">
+        <img id="RR-logo" src="../../assets/img/logo.png" alt="Logo Radium Rocket"/>
+        <form id="form" class="ep-form flex column">
           <div class="flex column">
-            <label class="bold self-left" for="email">Email</label>
-            <input id="email" type="email" />
-            <p class="error none">Email has an error</p>
-            <label class="bold self-left" for="password">Password</label>
-            <input id="password" type="password" />
-            <p class="error none">Password has an error</p>
+            <label class="left" for="email">Email</label>
+            <input id="email" type="text"/>
+            <p class="email-error none" id="email-error">Email has an error</p>
+            <label class="left" for="password">Password</label>
+            <input id="password" type="password"/>
+            <p class="password-error none" id="password-error">Password has an error</p>
           </div>
-          <div class="flex rememer-forgot">
+          <div class="flex remember-forgot">
             <div>
-              <input id="remember-me" type="radio" />
+              <input id="remember-me" type="radio"/>
               <label for="remember-me">Remember me</label>
             </div>
             <a href="#">Forgot password?</a>
           </div>
-          <input class="button bold" type="submit" value="continue" />
+          <input class="button bold" type="submit" value="continue"/>
           <div>
             <p>Are you new here?</p>
             <a href="../views/sign-up.html">Register</a>
