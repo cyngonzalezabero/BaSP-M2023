@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/content.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/side-bar.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Mega Rocket SA</title>
+  </head>
+  <body>
+    <header>
+      <p>Mega Rocket SA</p>
+    </header>
+  <!--Side bar-->
+  <img src="../../assets/img/hamburguer-icon.png" alt="hamburguer-icon" class="hamburguer-icon">
+  <aside>
+    <ul>
+      <li>
+        <input id="search-box" type="text" placeholder="Search">
+        <img id="search" src="../../assets/img/search.png">
+      </li>
+    </ul>
+  <nav>
+    <ul>
+      <li>
+        <a href="#">
+          <img class="sidebar-icon" src="../../assets/img/home.png" alt="home icon">
+          <button class="sidebar-button">Home</button>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img class="sidebar-icon" src="../../assets/img/sign-up.png" alt="sign up icon">
+          <button class="sidebar-button">Sign up</button>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img class="sidebar-icon" src="../../assets/img/sign-in.png" alt="sign in icon">
+          <button class="sidebar-button">Sign in</button>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img class="sidebar-icon" src="../../assets/img/contact.png" alt="contact icon">
+          <button class="sidebar-button">Contact</button>
+        </a>
+      </li>
+    </ul>
+  <h3 id="info-title">Information</h3>
+    <ul>
+      <li>
+          <img class="sidebar-images" src="../../assets/img/envelope.png" alt="envelope icon">
+          <a href="#" class="information">information@untitled.tld</a>
+      </li>
+      <li>
+          <img class="sidebar-images" src="../../assets/img/cellphone.png" alt="cellphone icon">
+          <p class="information">(000) 000-0000</p>
+      </li>
+      <li>
+          <img class="sidebar-images" src="../../assets/img/home.png" alt="home icon">
+          <p class="information">1234 Somewhere Road, #8254Nashville, TN 00000-0000</p>
+      </li>
+    </ul>
+  </nav>
+  </aside>
+    <main>
+  <!--Frame 1-->
+      <section id="frame-1" class="flex-column center">
+        <div class="header-img-container center">
+          <h1>Hi, and welcome to Mega Rocket SA Gym</h1>
+          <img src="../../assets/img/picture1.png" alt="gym picture">
+        </div>
+        <h2>
+          A FREE AND FULLY RESPONSIVE 
+          SITE TEMPLATE
+        </h2>
+          <p>
+          Aenean ornare velit lacus, ac varius 
+          enim ullamcorper eu. Proin aliquam 
+          facilisis ante interdum congue. Integer 
+          mollis, nisl amet convallis, porttitor 
+          magna ullamcorper, amet egestas 
+          mauris. Ut magna finibus nisi nec 
+          lacinia. Nam maximus erat id euismod 
+          egestas. Pellentesque sapien ac quam. 
+          Lorem ipsum dolor sit nullam.
+          </p>
+      </section>
+      <div class="separator-line"></div>
+  <!--Frame 2-->
+      <section id="frame-2" class="flex-column">
+          <article class="flex center">
+            <img src="../../assets/img/appointment.png" alt="appointment booking image" id="image-1">
+            <div class="flex-column info-box-container center">
+              <h3>Appointment booking</h3>
+              <p>Aenean ornare velit lacus, ac varius 
+                enim ullamcorper eu. Proin aliquam 
+                facilisis ante interdum congue.</p>
+            </div>
+          </article>
+          <article class="flex center">
+            <img src="../../assets/img/calendar.png" alt="calendar image" id="image-2">
+            <div class="flex-column info-box-container center">
+            <h3>Calendar and opening hours</h3>
+            <p>Aenean ornare velit lacus, ac varius 
+              enim ullamcorper eu. Proin aliquam 
+              facilisis ante interdum congue.</p>
+            </div>
+          </article>
+          <article class="flex center">
+            <img src="../../assets/img/membership.png" alt="membership credit cards image" id="image-3">
+            <div class="flex-column info-box-container center">
+            <h3>Management and membership</h3>
+            <p>Aenean ornare velit lacus, ac varius 
+              enim ullamcorper eu. Proin aliquam 
+              facilisis ante interdum congue.</p>
+            </div>
+          </article>
+          <article class="flex center">
+            <img src="../../assets/img/contact-form.png" alt="contact and suggestions image" id="image-4">
+            <div class="flex-column info-box-container center">
+            <h3>Contact form and suggestions</h3>  
+            <p>Aenean ornare velit lacus, ac varius 
+              enim ullamcorper eu. Proin aliquam 
+              facilisis ante interdum congue.</p>
+            </div>
+          </article>          
+        </section>
+      <div class="separator-line"></div>
+  <!--Frame 3-->
+      <section id="frame-3" class="flex-column center">
+        <h3>Registration and/or claim</h3>
+        <form>
+          <div class="form-labels flex-column center">
+              <label for="name">Name</label>
+              <input type="text" id="name" class="box">
+              <label for="lastname">Lastname</label>
+              <input type="text" id="lastname" class="box">
+              <label for="email">Email</label>
+              <input type="email" id="email" class="box">
+          </div>
+          <div class="form-options flex-column">
+          <div>
+            <input type="radio" name="option" id="option1" class="circle">
+            <label for="membership">I want to know memberships and costs</label>
+          </div>
+          <div>
+            <input type="radio" name="option" id="option2" class="circle">
+            <label for="question">I want to make a question or suggestion</label>
+          </div>
+          <div>
+            <input type="radio" name="option" id="option3" class="circle">
+            <label for="claim">I want to make a claim</label>
+          </div>
+          </div>
+            <p>Comments</p>
+            <textarea name="comments" id="textarea"></textarea>
+          <div>
+            <button type="submit">Send</button>
+          </div>
+        </form>
+        </div>
+      </section>
+      <div class="separator-line"></div>
+  <!--Frame 4-->
+    <section id="frame-4" class="flex-column center">
+      <div class="flex-column">
+        <h4>About us</h4>
+        <p>
+          Lorem Ipsum is simply 
+          dummy text of the printing 
+          and typesetting industry. 
+          Lorem Ipsum has been the 
+          industry's standard dummy 
+          text ever since the 1500s,
+          when 
+          an unknown printer took a 
+          galley of type and 
+          scrambled it to make a type 
+          specimen book.
+        </p>
+      </div>
+    </section>
+    <div class="separator-line"></div>
+  <!--Frame 5-->
+  <h4 id="activities-h4">Activities</h4>
+    <section id="frame-5" class="flex-column center">
+    <div class="activity-section flex-column center">
+      <img src="../../assets/img/crossfit.png" alt="crossfit training">
+      <p>Crossfit</p>
+    </div>
+    <div class="activity-section flex-column center">
+      <img src="../../assets/img/functional.png" alt="functional training">
+      <p>Functional</p>
+    </div>
+    <div class="activity-section flex-column center">
+      <img src="../../assets/img/boxing.png" alt="boxing training">
+      <p>Boxing</p>
+    </div>
+    <div class="activity-section flex-column center">
+      <img src="../../assets/img/spinning.png" alt="spinning training">
+      <p>Spinning</p>
+    </div>
+    <div class="activity-section flex-column center">
+      <img src="../../assets/img/muscles.png" alt="man training muscles">
+      <p>Fitness</p>
+    </div>   
+    </section>
+    <div class="separator-line"></div>
+  <!--Frame 6-->
+    <section id="frame-6" class="flex-column center">
+      <div class="li-container flex-column">
+        <p id="membership-black">Membership Black</p>
+        <ul>
+          <li>Free access to Bodybuilding</li>
+          <li>Free access to classes prior registration</li>
+          <li>Follow-up analyzed by coach</li>
+          <li>Grid display</li>
+        </ul>
+      </div>
+      <div class="li-container flex-column">
+        <p id="membership-classic">Membership Classic</p>
+        <ul>
+          <li>Free access to the weight room</li>
+          <li>Personalized monitoring by a coach</li>
+          <li>Grid display</li>
+        </ul>
+      </div>
+      <div class="li-container flex-column">
+        <p id="membership-onlyclasses">Membership Only Classes</p>
+        <ul>
+          <li>Free access to the weight room</li>
+          <li>Personalized monitoring by a coach</li>
+          <li>Grid display</li>
+        </ul>
+      </div>     
+    </section>
+    </main>
+    <footer>
+      <div class="footer-container flex">
+        <div class="footer-icon">
+          <a href="https://www.snapchat.com/" target="_blank">
+            <img src="../../assets/img/snapchat.png" alt="logo snapchat">
+          </a>
+        </div>
+        <div class="footer-icon">
+          <a href="https://www.whatsapp.com/" target="_blank">
+            <img src="../../assets/img/whatsapp.png" alt="logo whatsapp">
+          </a>
+        </div>
+        <div class="footer-icon">
+          <a href="https://www.facebook.com/" target="_blank">
+            <img src="../../assets/img/facebook.png" alt="logo facebook">
+          </a>
+        </div>
+        <div class="footer-icon">
+          <a href="https://www.instagram.com/" target="_blank">
+            <img src="../../assets/img/instagram.png" alt="logo instagram">
+          </a>
+        </div>
+        <div class="footer-icon">
+          <a href="https://www.telegram.com/" target="_blank">
+            <img src="../../assets/img/telegram.png" alt="logo telegram">
+          </a>
+        </div>
+        <div class="footer-icon">
+          <a href="https://www.linkedin.com/" target="_blank">
+            <img src="../../assets/img/linkedIn.png" alt="logo linkedin">
+          </a>
+        </div>
+        </div>
+        <div id="footer-text" class="flex">
+          <p>Rosario, Argentina</p> 
+          <p>Copyright © 2022 Radium Rocket. All rights reserved</p>
+      </div>
+      <img src="../../assets/img/logo.png" alt="logo radium rocket" id="logo">
+    </footer>
+  </body>
+</html>

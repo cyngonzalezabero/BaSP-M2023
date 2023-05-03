@@ -59,3 +59,18 @@ with the data entered by the users.
 Login:
    * Email
    * Password
+
+Sign-up
+   * Name
+   * Lastname
+   * ID
+   * Birthday
+   * Phone number
+   * Address
+   * Locality
+   * Zip-code
+   * Email
+   * Password
+
+## Week 07
+
